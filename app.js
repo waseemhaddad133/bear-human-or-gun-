@@ -17,6 +17,8 @@ function getComputerChoice() {
     return "gun";
   }
 }
+
+// Determin winner
 function determineWinner(userChoice, computerChoice) {
   if (userChoice === computerChoice) {
     return "It is a tie";
